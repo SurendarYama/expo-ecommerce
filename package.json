@@ -2,6 +2,9 @@
   "name": "expo-ecommerce",
   "version": "1.0.0",
   "description": "[Learn from Codesistency Youtube](https://www.youtube.com/watch?v=FaXe__AxzNU&t=49s)",
+  "engines": {
+    "node": ">=24.11.1"
+  },
   "scripts": {
     "build": "npm install --prefix backend && npm install --prefix admin && npm run build --prefix admin",
     "start": "npm run start --prefix backend"
